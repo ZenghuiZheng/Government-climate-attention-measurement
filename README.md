@@ -1,4 +1,4 @@
-# GCA-ET Text Mining Workflow
+# Government Climate Attention Text Mining Workflow
 
 This repository contains the code workflow used to build climate-policy text indicators from Chinese policy and government-report corpora.
 
@@ -154,18 +154,3 @@ python src/vectorize_ucr.py merge-panel ^
   --output-csv outputs/panel_with_similarity.csv ^
   --key-columns <year_column> <region_column>
 ```
-
-## Publishing Notes
-
-Before pushing to GitHub:
-
-```bash
-git status
-git add README.md requirements.txt .env.example .gitignore data src *.ipynb
-git commit -m "Prepare public research code release"
-git branch -M main
-git remote add origin https://github.com/<your-name>/<your-repo>.git
-git push -u origin main
-```
-
-Do not commit `.env`, raw data, trained checkpoints, vector files, or generated result tables unless you are certain they are public.
