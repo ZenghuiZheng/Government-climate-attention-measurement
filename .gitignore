@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+*.key
+*.pem
+
+# Data files
+data/*
+!data/README.md
+!data/examples/
+!data/examples/.gitkeep
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.jsonl
+
+# Model checkpoints and vector outputs
+outputs/
+models/
+checkpoints/
+checkpoint-*/
+best_model/
+bert-base-chinese/
+tokenized_train/
+tokenized_val/
+word_vectors*/
+sentence_vectors/
+new_word_vectors/
+climate_policy_vectorstore/
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Generated figures and reports
+figures/
+reports/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
