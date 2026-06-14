@@ -15,17 +15,17 @@ env/
 *.pem
 
 # Data files
-data/*
-!data/README.md
-!data/examples/
-!data/examples/.gitkeep
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.parquet
-*.feather
-*.jsonl
+# data/*
+# !data/README.md
+# !data/examples/
+# !data/examples/.gitkeep
+# *.csv
+# *.tsv
+# *.xlsx
+# *.xls
+# *.parquet
+# *.feather
+# *.jsonl
 
 # Model checkpoints and vector outputs
 outputs/
